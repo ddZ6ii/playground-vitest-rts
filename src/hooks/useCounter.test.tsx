@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 import { act, renderHook } from "@testing-library/react"
-import useCounter from "@/hooks/useCounter"
+import { useCounter } from "@/hooks"
 
 describe("useCounter", () => {
   it("has initial value of 0", () => {
